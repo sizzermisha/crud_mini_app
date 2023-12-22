@@ -7,7 +7,7 @@
 		);
 
 		$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
-	}	catch (PDOException $e) {
+	} catch (PDOException $e) {
 		echo "Произошла ошибка подключения MySQL";
 	}
 ?>
@@ -20,7 +20,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<input type="button" value="Создать нового пользователя">
+	<!-- <input type="button" value="Создать нового пользователя"> -->
 	<div class="list_users">
 		<p class="list_users_text">Список зарегестрированных пользователей</p>
 		<table>
